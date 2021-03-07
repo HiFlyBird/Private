@@ -20,7 +20,7 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone https://github.com/HiFlyBird/Private.git ~/JavaScript
+          git clone https://github.com/HiFlyBird/Private/tree/ZIYE/Task.git ~/JavaScript
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
