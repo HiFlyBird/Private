@@ -29,7 +29,7 @@ jobs:
         if: env.XL_URL
         run: |
           cd ~/Private
-          git checkout master
+          git checkout ZIYI
           npm install
       - name: '运行 【小乐】'
         if: env.XL_URL
